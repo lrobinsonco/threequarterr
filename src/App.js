@@ -14,8 +14,8 @@ class App extends Component {
       <h1>Lee</h1>
       <div className="navbar-link">
       <h4 className="col-sm-4"><Link to="/projects">Projects</Link></h4>
-      <h4 className="col-sm-4"><Link to="/">About Me</Link></h4>
-      <h4 className="col-sm-4"><Link to="/contact">Contact Me</Link></h4>
+      <h4 className="col-sm-4"><Link to="/">About</Link></h4>
+      <h4 className="col-sm-4"><Link to="/contact">Contact</Link></h4>
       </div>
       </div>
     );
