@@ -1,15 +1,30 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react';
+import {Row, Col, Grid, Thumbnail} from 'react-bootstrap';
+
 import '../App.css'
 
 export default class Projects extends Component {
-  render(){
-    return(
-      <div className="row container-fluid">
-      <div className="col-sm-4"><h1>1</h1></div>
-      <div className="col-sm-4"><h1>2</h1></div>
-      <div className="col-sm-4"><h1>3</h1></div>
-
+  render() {
+    return (
+      <div>
+        <Grid>
+          <Row>
+            <Col xs={6} md={3}>
+              <Thumbnail href="#" alt="171x180" src="/assets/thumbnail.png"/>
+            </Col>
+            <Col xs={6} md={3}>
+              <Thumbnail href="#" alt="171x180" src="/assets/thumbnail.png"/>
+            </Col>
+            <Col xs={6} md={3}>
+              <Thumbnail href="#" alt="171x180" src="/assets/thumbnail.png"/>
+            </Col>
+            <Col xs={6} md={3}>
+              <Thumbnail href="#" alt="171x180" src="/assets/thumbnail.png"/>
+            </Col>
+          </Row>
+        </Grid>
       </div>
+
     )
   }
 }
