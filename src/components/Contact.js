@@ -6,7 +6,8 @@ export default class Contact extends Component {
     return(
       <div>
       <h1>contact</h1>
-      <p></p>
+      <p>Please contact me at:</p>
+      <a href = "mailto: threequarterr@gmail.com">threequarterr</a>
       </div>
     )
   }
